@@ -1,0 +1,125 @@
+# largest second number
+"""a= int(input())
+b= int(input())
+c= int(input())
+if a>b and a>c:
+    a=0
+elif b<c:
+    b=0
+else:
+    c=0
+if a>b and a<c:
+   print(a)
+elif b<c:
+   print(b)
+else:
+   print(c)"""
+# print 1000 helo world
+"""for i in range(1000):
+   print("Hello World")"""
+# write a program which prints s/l/or equal realations of given two integers a and b
+"""def compare_numbers(a, b):
+   if a<b:
+     print("a<b")
+   elif a>b:
+     print("a>b")
+   else:
+     print("a==b")
+compare_numbers(10,20)"""
+# given the length  of 3 sides of a triangle,check whether the triangle is valid or not
+"""def valid(a,b,c):
+    if(a+b>c) and (a+c>b) and (b+c>a):
+        return "yes"
+    else:
+        return "no"
+a= int(input())
+b= int(input())
+c= int(input())
+print(valid(a,b,c))"""
+# divide apple among students
+"""n=int(input())
+k=int(input())
+while n<k:
+    k-=n
+print(k)
+#reversing a number"""
+# reversing of a number
+"""n=int(input())
+x=0
+if(n>0):
+    while(n>0):
+        r=n%10
+        x=x*10+r
+        n//=10
+    print(x)
+elif n==0:
+    print(n)
+else:
+    x=0
+    n=n*-1
+    while(n>0):
+        r=n%10
+        x=x*10+r
+        n//=10
+    print(-1*x)"""
+#watermelon in even numbers
+"""weight=int(input())
+if weight%2==0 and weight>2:
+    print("yes")
+else:
+    print("no")"""
+# fever or not
+"""for i in range(3):
+    n=int(input())
+    if n>98:
+       print("yes")
+    else:
+        print("no")"""
+#or
+"""t= int(input())
+while t>0:
+    n= int(input())
+    if n>98:
+        print("yes")
+    else:
+        print("no")
+t=t-1"""
+#discount for 100 rupee toy
+"""t=int(input())
+for i in range(t):
+   x=int(input())
+   z=(100-x)
+print(z)"""
+#discount for two tv's
+"""t=int(input())
+for i in range(t):
+    a,b,c,d=map(int,input().split())
+    a=a-c
+    b=b-d
+    if a<b:
+        print("first")
+    elif b<a:
+        print("second")
+    else:
+        print("any")"""
+#candies to n children
+"""t=int(input())
+for i in range(t):
+    a,b=map(int,input().split())
+    if a>b:
+        n=a-b
+        if n%4==0:
+          print(n//4)
+        else:
+          print((n//4)+1)
+else:
+    print(0)"""
+#pizza slices
+"""t=int(input())
+for i in range(t):
+    a,b=map(int,input().split())
+    n=a*b
+    if n%4==0:
+          print(n//4)
+    else:
+        print((n//4)+1)"""
